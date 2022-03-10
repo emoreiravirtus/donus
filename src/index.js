@@ -18,7 +18,7 @@ let fUsers = users.map((u) => {
 });
 
 export const getBestCreditCompany = (customerName) => {
-  const user = fUsers.find(u => u.name == customerName);
+  const user = fUsers.find(u => u.name === customerName);
 
   let key;
 
